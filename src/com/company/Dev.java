@@ -2,6 +2,8 @@ package com.company;
 
 public class Dev {
 
+    int  x;
+
     public Dev() {
     }
 
