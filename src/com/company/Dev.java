@@ -14,4 +14,9 @@ public class Dev {
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
